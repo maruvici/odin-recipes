@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #161a24;
+}
+
+.header {
+    background-color: #2b3c53;
+    color: white;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.header img {
+    vertical-align: middle;
+    width: 100px;
+}
+
+.header .header-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.recipes {
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.recipes h1 {
+    padding: 20px;
+}
+
+.recipes .card {
+    border: 5px solid white;
+    display: inline-block;
+    height: 300px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+}
+
+.recipes .card a {
+    color: white;
+    display: block;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+
+.recipes .card img {
+    height: 150px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    width: 150px
+}
+
