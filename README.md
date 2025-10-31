@@ -6,3 +6,4 @@ website.
 Skills-in-practice:
 - Git 
 - HTML
+- CSS
